@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Sakthi & Divya - A Royal Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Floating Mandala Background Elements -->
+  <div class="mandala mandala-tl"></div>
+  <div class="mandala mandala-br"></div>
+
+  <main class="page">
+    
+    <!-- HERO SECTION -->
+    <section class="hero glass-panel reveal">
+      <div class="hero-content">
+        <h3 class="subtitle">Together with their families</h3>
+        <h1 class="title">Sakthi <span class="ampersand">&</span> Divya</h1>
+        <p class="invite-text">invite you to celebrate their union</p>
+        
+        <div class="divider">
+          <span class="diamond"></span>
+        </div>
+        
+        <div class="date-venue">
+          <h2>8th June 2025</h2>
+          <p>Vinayaga Mahal</p>
+          <p>Thangammalpuram, Theni</p>
+        </div>
+        
+        <!-- COUNTDOWN TIMER -->
+        <div class="countdown" id="countdown">
+          <div class="time-box"><span id="days">00</span><small>Days</small></div>
+          <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+          <div class="time-box"><span id="minutes">00</span><small>Mins</small></div>
+          <div class="time-box"><span id="seconds">00</span><small>Secs</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee-container reveal">
+      <div class="marquee">
+        <span>#SakthiWedsDivya &nbsp; • &nbsp; 8.06.2025 &nbsp; • &nbsp; A Royal Celebration &nbsp; • &nbsp; #SakthiWedsDivya &nbsp; • &nbsp; 8.06.2025 &nbsp; • &nbsp; A Royal Celebration &nbsp; • &nbsp;</span>
+        <span>#SakthiWedsDivya &nbsp; • &nbsp; 8.06.2025 &nbsp; • &nbsp; A Royal Celebration &nbsp; • &nbsp; #SakthiWedsDivya &nbsp; • &nbsp; 8.06.2025 &nbsp; • &nbsp; A Royal Celebration &nbsp; • &nbsp;</span>
+      </div>
+    </section>
+
+    <!-- INVITATION DETAILS -->
+    <section class="invitation reveal glass-panel">
+      <div class="om-symbol">ॐ</div>
+      <p class="blessing-text">With the divine blessings of our ancestors, we request the honor of your presence to grace this auspicious occasion.</p>
+      
+      <div class="parents-section">
+        <div class="parents-col">
+          <p class="role">Groom's Parents</p>
+          <p class="name">Mr. Palanichamy & Mrs. Thangapillai</p>
+        </div>
+        <div class="parents-col">
+          <p class="role">Bride's Parents</p>
+          <p class="name">Mr. Senthilvelu & Mrs. Pandiayammal</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events reveal" id="events">
+      <h2 class="title" style="text-align: center; margin-bottom: 50px;">Wedding Events</h2>
+      
+      <div class="events-grid">
+        <div class="event-card glass-panel">
+          <h3>Nichayathartham</h3>
+          <p class="time">Sunday, 8th June 2025<br>Morning Onwards</p>
+          <p class="venue">Vinayaga Mahal<br>Thangammalpuram, Theni</p>
+          <a href="https://maps.app.goo.gl/TcPSWALw2uihJ2wz6" class="maps-btn" target="_blank" rel="noopener noreferrer">View on Maps 📍</a>
+        </div>
+        
+        <div class="event-card glass-panel">
+          <h3>Muhurtham</h3>
+          <p class="time">Sunday, 8th June 2025<br>9:30 AM – 10:30 AM</p>
+          <p class="venue">Vinayaga Mahal<br>Thangammalpuram, Theni</p>
+          <a href="https://maps.app.goo.gl/TcPSWALw2uihJ2wz6" class="maps-btn" target="_blank" rel="noopener noreferrer">View on Maps 📍</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery reveal">
+      <h2 class="title" style="margin-bottom: 10px;">Meet The Bride & Groom</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px auto; color: var(--text); font-size: 1.2rem; font-style: italic;">We are overjoyed that you're joining us to celebrate what we hope will be the most beautiful day of our lives. Your presence is the greatest gift. We look forward to making memories together! 🌸</p>
+      <div class="carousel-container glass-panel">
+        <div class="carousel" id="carousel">
+          <img src="/images/photo1.jpg" alt="Gallery Photo 1" class="carousel-slide active" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo2.jpg" alt="Gallery Photo 2" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo3.jpg" alt="Gallery Photo 3" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo4.jpg" alt="Gallery Photo 4" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo5.jpg" alt="Gallery Photo 5" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo6.jpg" alt="Gallery Photo 6" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo7.jpg" alt="Gallery Photo 7" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo8.jpg" alt="Gallery Photo 8" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo9.jpg" alt="Gallery Photo 9" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo10.jpg" alt="Gallery Photo 10" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo11.jpg" alt="Gallery Photo 11" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo12.jpg" alt="Gallery Photo 12" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo13.jpg" alt="Gallery Photo 13" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo14.jpg" alt="Gallery Photo 14" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo15.jpg" alt="Gallery Photo 15" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo16.jpg" alt="Gallery Photo 16" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo17.jpg" alt="Gallery Photo 17" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo18.jpg" alt="Gallery Photo 18" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo19.jpg" alt="Gallery Photo 19" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+          <img src="/images/photo20.jpg" alt="Gallery Photo 20" class="carousel-slide" onerror="this.remove(); window.initCarousel && window.initCarousel();">
+        </div>
+        <button class="nav-btn prev" id="prevBtn" aria-label="Previous image">❮</button>
+        <button class="nav-btn next" id="nextBtn" aria-label="Next image">❯</button>
+        
+        <div class="carousel-dots" id="dotsContainer">
+          <!-- Dots generated via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp reveal glass-panel">
+      <h2 class="section-title">RSVP</h2>
+      <p>We can't wait to celebrate with you!</p>
+      <p class="rsvp-subtext">Please let us know if you can make it.</p>
+      <a href="https://wa.me/919585992141?text=Hi!%20I%20would%20love%20to%20attend%20your%20wedding!" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 3.825 0 6.938 3.112 6.938 6.937 0 3.824-3.113 6.938-6.938 6.943z"/>
+        </svg>
+        Confirm RSVP
+      </a>
+      
+      <div style="margin-top: 25px;">
+        <a href="https://www.instagram.com/sakthiispeaks/" class="instagram-btn" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          Follow on Instagram
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Made with ❤️ for Sakthi & Divya</p>
+      <p class="tagline">A Royal Celebration</p>
+    </footer>
+
+  </main>
+  
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
